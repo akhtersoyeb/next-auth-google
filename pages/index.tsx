@@ -53,12 +53,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='absolute top-0 right-0'>
+        <div className='overflow-hidden'>
           <Image
-            className='max-h-screen h-screen'
+            className='min-h-screen fixed -right-40'
             src={'/Wairau.svg'}
             width={1080}
-            height={1080}
+            height={2000}
             priority={true}
             alt='Background image missing'
           />
